@@ -1,0 +1,32 @@
+{
+  "title": "Ninebot",
+  "config": {
+    "step": {
+      "user": {
+        "title": "登录九号账号",
+        "description": "输入九号账号密码，集成会拉取你的车辆列表。",
+        "data": {
+          "username": "账号",
+          "password": "密码",
+          "language": "语言"
+        }
+      },
+      "device": {
+        "title": "选择车辆",
+        "description": "检测到多个九号设备，请选择要接入 Home Assistant 的车辆。",
+        "data": {
+          "device_sn": "车辆"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "连接九号接口失败",
+      "invalid_auth": "账号或密码无效",
+      "no_devices": "当前账号下没有可用车辆",
+      "unknown": "发生未知错误"
+    },
+    "abort": {
+      "already_configured": "该车辆已配置"
+    }
+  }
+}

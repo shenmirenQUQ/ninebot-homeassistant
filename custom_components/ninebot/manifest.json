@@ -1,0 +1,16 @@
+{
+  "domain": "ninebot",
+  "name": "Ninebot",
+  "codeowners": [
+    "@onon9_9"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/shenmirenQUQ/ninebot-homeassistant",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "loggers": [
+    "custom_components.ninebot"
+  ],
+  "requirements": [],
+  "version": "0.1.0"
+}

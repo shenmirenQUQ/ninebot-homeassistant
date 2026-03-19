@@ -1,0 +1,7 @@
+{
+  "name": "Ninebot Home Assistant Integration",
+  "content_in_root": false,
+  "domains": ["sensor", "binary_sensor"],
+  "homeassistant": "2026.3.0",
+  "render_readme": true
+}
